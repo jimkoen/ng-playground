@@ -1,14 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {AppComponent} from "./app.component";
-import {
-  IntersectionObserverExampleComponent
-} from "./examples/intersection-observer-example/intersection-observer-example.component";
+import {IndexComponent} from "./index/index.component";
+import {BasicScrollComponent} from "./examples/web-apis/intersection-observer-api/basic-scroll/basic-scroll.component";
+
+const webAPIRoutes : Routes = [
+  {
+    path: "intersection-observer-api",
+    children: [
+      {
+        path: "basic-scroll",
+        component: BasicScrollComponent
+      }
+    ]
+  }
+]
 
 const routes: Routes = [
   {
-    path: "intersectionObserver",
-    component: IntersectionObserverExampleComponent
+    path: "",
+    component: IndexComponent
+  },
+  {
+    path: "web-apis",
+    children: webAPIRoutes
   }
 ];
 
