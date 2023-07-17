@@ -1417,6 +1417,20 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
+"@ng-web-apis/common@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@ng-web-apis/common/-/common-3.0.1.tgz#6378ee21dd610c1cd8d635d6c3732ff57e043c20"
+  integrity sha512-pk0ibndaku/uip6MNST3/SA+sUcQZoajV2y4Mg6frfJzLq3wnKMQH25voL7wgG+XTaWvsS2OPDddPRFLn6qM7g==
+  dependencies:
+    tslib "^2.2.0"
+
+"@ng-web-apis/intersection-observer@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@ng-web-apis/intersection-observer/-/intersection-observer-3.1.1.tgz#2d778ede4682572277967a0148fc465a95edf509"
+  integrity sha512-DjJK2LiZlfoS5IxeYCV8Qq+ebgEg5sAXRGWYyh/URDzKM6zZeYl+Wf09KVFW4NXgRUPcpBanhOL3DFAdMKEpaQ==
+  dependencies:
+    tslib "^2.2.0"
+
 "@ngtools/webpack@16.1.4":
   version "16.1.4"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-16.1.4.tgz#2e29bdf590c8b5505ffd744f12075b14ed972fc8"
@@ -5733,7 +5747,7 @@ tslib@2.5.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.3.tgz#24944ba2d990940e6e982c4bea147aba80209913"
   integrity sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==
 
-tslib@^2.1.0, tslib@^2.3.0:
+tslib@^2.1.0, tslib@^2.2.0, tslib@^2.3.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
   integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==

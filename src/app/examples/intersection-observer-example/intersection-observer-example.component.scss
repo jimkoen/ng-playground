@@ -1,0 +1,23 @@
+:host{
+
+}
+
+.intersection-root{
+  border: 1px solid black;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  justify-content: space-between;
+  max-height: 100px;
+}
+
+.container{
+  margin: 0.5em;
+}
+
+.intersection-observee{
+  min-height: 100px;
+  background-color: antiquewhite;
+
+}
