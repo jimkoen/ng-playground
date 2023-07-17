@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Open in StackBlitz
 To open this project in StackBlitz:
 
-[https://stackblitz.com/fork/github/jimkoen/ng-playground](https://stackblitz.com/github/jimkoen/ng-playground)
+[https://stackblitz.com/fork/github/jimkoen/ng-playground](https://stackblitz.com/fork/github/jimkoen/ng-playground)
 
 ## Development server
 
