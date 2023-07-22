@@ -32,9 +32,38 @@ import {RouterLink} from "@angular/router";
                         <p>This example is a replica of those found in the MDN documentation</p>
                       </a>
                     </li>
+                    <li>
+                      <a [routerLink]="'web-apis/intersection-observer-api/color-drag'">
+                        <h5>Color Drag Example</h5>
+                        <p>This example shows how one component can react to changes in the observer</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a [routerLink]="'web-apis/intersection-observer-api/scroll-content-load'">
+                        <h5>Scroll to load content</h5>
+                        <p>This example shows an infinite scrolling scenario where content is dynamically loaded with help of an intersection observer</p>
+                      </a>
+                    </li>
                   </ul>
                 </nav>
             </article>
+        </article>
+        <article>
+          <h3>Angular + Three.js</h3>
+          <p>See how you can make Angular work with Three.js.</p>
+          <article>
+            <h4>Misc</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a [routerLink]="'angular-threejs/misc/geometry-load'">
+                    <h5>Geometry Performance Test</h5>
+                    <p>This example measures how fast different Geometry can be loaded in and changed</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </article>
         </article>
       </section>
     </main>

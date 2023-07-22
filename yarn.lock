@@ -1977,6 +1977,13 @@ ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+angular2-draggable@^16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/angular2-draggable/-/angular2-draggable-16.0.0.tgz#655eac1a6757999b624222639a97cf779405ee48"
+  integrity sha512-LQL4cMdJYYmki9KibdU6Fns8NPmCOcfIW2I2tF9/PXWquIaL2IWT1xP4Kkin+v+ki7Is2Zua6lDFBrScP8Ww7w==
+  dependencies:
+    tslib "^2.3.0"
+
 ansi-colors@4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"
