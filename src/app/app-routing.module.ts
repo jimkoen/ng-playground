@@ -7,6 +7,7 @@ import {GeometryLoadComponent} from "./examples/threejs/misc/geometry-load/geome
 import {
   ScrollContentLoadComponent
 } from "./examples/web-apis/intersection-observer-api/scroll-content-load/scroll-content-load.component";
+import {BasicCRUDExampleComponent} from "./examples/pocketbase/misc/basic-crudexample/basic-crudexample.component";
 
 const threejsRoutes: Routes = [
   {
@@ -16,6 +17,18 @@ const threejsRoutes: Routes = [
         path: "geometry-load",
         component: GeometryLoadComponent
       },
+    ]
+  }
+]
+
+const pocketbaseRoutes: Routes = [
+  {
+    path: "misc",
+    children:[
+      {
+        path: "untitled1",
+        component: BasicCRUDExampleComponent
+      }
     ]
   }
 ]
@@ -53,6 +66,10 @@ const routes: Routes = [
   {
     path: "angular-threejs",
     children: threejsRoutes
+  },
+  {
+    path: "angular-pocketbase",
+    children: pocketbaseRoutes
   }
 ];
 

@@ -65,6 +65,23 @@ import {RouterLink} from "@angular/router";
             </nav>
           </article>
         </article>
+        <article>
+          <h3>Angular + Pocketbase</h3>
+          <p>See how you can connect Angular with a Pocketbase based backend.</p>
+          <article>
+            <h4>Misc</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a [routerLink]="'angular-pocketbase/misc/untitled1'">
+                    <h5>Untitled example</h5>
+                    <p>Not sure what I will do with this yet</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+        </article>
       </section>
     </main>
 
