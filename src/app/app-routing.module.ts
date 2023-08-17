@@ -8,6 +8,7 @@ import {
   ScrollContentLoadComponent
 } from "./examples/web-apis/intersection-observer-api/scroll-content-load/scroll-content-load.component";
 import {BasicCRUDExampleComponent} from "./examples/pocketbase/misc/basic-crudexample/basic-crudexample.component";
+import {ClickerGameComponent} from "./examples/clicker-game/clicker-game.component";
 
 const threejsRoutes: Routes = [
   {
@@ -33,6 +34,12 @@ const pocketbaseRoutes: Routes = [
   }
 ]
 
+const clickerGameRoutes: Routes = [
+  {
+    path: "game",
+    component: ClickerGameComponent
+  }
+]
 
 const webAPIRoutes : Routes = [
   {
@@ -70,6 +77,10 @@ const routes: Routes = [
   {
     path: "angular-pocketbase",
     children: pocketbaseRoutes
+  },
+  {
+    path: "clickergame",
+    children: clickerGameRoutes
   }
 ];
 

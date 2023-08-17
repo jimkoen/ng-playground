@@ -82,6 +82,23 @@ import {RouterLink} from "@angular/router";
             </nav>
           </article>
         </article>
+        <article>
+          <h3>Clickergame</h3>
+          <p>This section revolves around clickergame components implemented in Angular</p>
+          <article>
+            <h4>Game</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a [routerLink]="'clickergame/game'">
+                    <h5>The Game</h5>
+                    <p>Click here to play the game</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+        </article>
       </section>
     </main>
 
