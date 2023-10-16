@@ -8,7 +8,15 @@ import {
   ScrollContentLoadComponent
 } from "./examples/web-apis/intersection-observer-api/scroll-content-load/scroll-content-load.component";
 import {BasicCRUDExampleComponent} from "./examples/pocketbase/misc/basic-crudexample/basic-crudexample.component";
+import {OldClickerGameComponent} from "./examples/clicker-game/old-clicker-game.component";
+import {ScanExampleComponent} from "./examples/rxjs/transform-operators/scanexample/scan-example.component";
+import {
+  ResetIntervalExampleComponent
+} from "./examples/rxjs/timing/reset-interval-example/reset-interval-example.component";
 import {ClickerGameComponent} from "./examples/clicker-game/clicker-game.component";
+import {OverlayComponent} from "./examples/directives/overlay-example/overlay/overlay.component";
+import {D3ImportComponent} from "./examples/d3/d3-simport/d3-import.component";
+import {D3ReactiveComponent} from "./examples/d3/d3-reactive/d3-reactive.component";
 
 const threejsRoutes: Routes = [
   {
@@ -41,6 +49,27 @@ const clickerGameRoutes: Routes = [
   }
 ]
 
+const rxjsRoutes : Routes = [
+  {
+    path: "transformation-operators",
+    children:[
+      {
+        path: "example1",
+        component: ScanExampleComponent
+      }
+    ]
+  },
+  {
+    path: "timing",
+    children:[
+      {
+        path: "reset-interval-example",
+        component: ResetIntervalExampleComponent
+      }
+    ]
+  }
+]
+
 const webAPIRoutes : Routes = [
   {
     path: "intersection-observer-api",
@@ -57,6 +86,39 @@ const webAPIRoutes : Routes = [
         path: "scroll-content-load",
         component: ScrollContentLoadComponent
       }
+    ]
+  }
+]
+
+const directiveRoutes : Routes = [
+  {
+    path: "misc",
+    children: [
+      {
+        path: "overlay-example",
+        component: OverlayComponent
+      },
+    ]
+  }
+]
+
+const d3jsRoutes : Routes = [
+  {
+    path: "basics",
+    children: [
+      {
+        path: "import",
+        component: D3ImportComponent
+      },
+    ]
+  },
+  {
+    path: "observable",
+    children: [
+      {
+        path: "zoom-to-bounding-box",
+        component: D3ReactiveComponent
+      },
     ]
   }
 ]
@@ -81,6 +143,18 @@ const routes: Routes = [
   {
     path: "clickergame",
     children: clickerGameRoutes
+  },
+  {
+    path: "rxjs",
+    children: rxjsRoutes
+  },
+  {
+    path: "directives",
+    children: directiveRoutes
+  },
+  {
+    path: "d3js",
+    children: d3jsRoutes
   }
 ];
 

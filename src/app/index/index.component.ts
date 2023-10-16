@@ -99,6 +99,83 @@ import {RouterLink} from "@angular/router";
             </nav>
           </article>
         </article>
+        <article>
+          <h3>rxjs</h3>
+          <p>This section revolves around the use of RXJS</p>
+          <article>
+            <h4>Transforms</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a [routerLink]="'rxjs/transformation-operators/example1'">
+                    <h5>Scans</h5>
+                    <p>Click here for an example for the scan filter</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+          <article>
+            <h4>Timing</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a [routerLink]="'rxjs/timing/reset-interval-example'">
+                    <h5>Scans</h5>
+                    <p>An example that shows a resettable interval timer</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+        </article>
+        <article>
+          <h3>Directives</h3>
+          <p>This section revolves around the use of directives</p>
+          <article>
+            <h4>Misc</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a [routerLink]="'directives/misc/overlay-example'">
+                    <h5>Overlay</h5>
+                    <p>Click here for an example on using directives for dynamic overlays</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+        </article>
+        <article>
+          <h3>D3.js</h3>
+          <p>This section revolves around the use of D3.js in Angular</p>
+          <article>
+            <h4>Basics</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a [routerLink]="'d3js/basics/import'">
+                    <h5>Import</h5>
+                    <p>Click here for an example on how to import D3js in Angular and rendering a simple chart.</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+          <article>
+            <h4>Observability</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a [routerLink]="'d3js/observable/zoom-to-bounding-box'">
+                    <h5>Zoom to Bounding Box / Reacting to state changes</h5>
+                    <p>This example shows how to react to state changes in a D3js chart, via the infamous <em>Zoom to bounding box</em>block, reimplemented in Angular.</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+        </article>
       </section>
     </main>
 
